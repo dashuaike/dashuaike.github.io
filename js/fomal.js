@@ -3409,7 +3409,7 @@ function createWinbox() {
 <h3>1. 二次元</h3>
 <details class="folding-tag" cyan><summary> 查看二次元背景 </summary>
               <div class='content'>
-              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://cdn.jsdelivr.net/gh/dashuaike/blog-img/img/3.jpg)" class="imgbox" onclick="changeBg('url(https://cdn.jsdelivr.net/gh/dashuaike/blog-img/img/3.jpg)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://cdn.jsdelivr.net/gh/dashuaike/blog-img/img/4.jpg)" class="imgbox" onclick="changeBg('url(https://cdn.jsdelivr.net/gh/dashuaike/blog-img/img/4.jpg)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://cdn.jsdelivr.net/gh/dashuaike/blog-img/img/17.jpeg)" class="imgbox" onclick="changeBg('url(https://cdn.jsdelivr.net/gh/dashuaike/blog-img/img/17.jpeg)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://cdn.jsdelivr.net/gh/dashuaike/blog-img/img/14.jpg)" class="imgbox" onclick="changeBg('url(https://cdn.jsdelivr.net/gh/dashuaike/blog-img/img/14.jpg)')"></a>、</div>
+              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://cdn.jsdelivr.net/gh/dashuaike/blog-img/img/3.jpg)" class="imgbox" onclick="changeBg('url(https://cdn.jsdelivr.net/gh/dashuaike/blog-img/img/3.jpg)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://cdn.jsdelivr.net/gh/dashuaike/blog-img/img/4.jpg)" class="imgbox" onclick="changeBg('url(https://cdn.jsdelivr.net/gh/dashuaike/blog-img/img/4.jpg)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://img2.imgtp.com/2024/04/12/55BXElpT.webp)" class="pimgbox" onclick="changeBg('url(https://img2.imgtp.com/2024/04/12/55BXElpT.webp)')"></a>、</div>
               </div>
             </details>
 
@@ -3450,7 +3450,7 @@ function createWinbox() {
 <h3>6. 适配手机</h3>
 <details class="folding-tag" cyan><summary> 查看适配手机的背景 </summary>
               <div class='content'>
-              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://lskypro.acozycotage.net/Fomalhaut/img/mb4.webp)" class="pimgbox" onclick="changeBg('url(https://lskypro.acozycotage.net/Fomalhaut/img/mb4.webp)')"></a></div>
+              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://cdn.jsdelivr.net/gh/dashuaike/blog-img/img/17.jpeg)" class="imgbox" onclick="changeBg('url(https://cdn.jsdelivr.net/gh/dashuaike/blog-img/img/17.jpeg)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://cdn.jsdelivr.net/gh/dashuaike/blog-img/img/14.jpg)" class="imgbox" onclick="changeBg('url(https://cdn.jsdelivr.net/gh/dashuaike/blog-img/img/14.jpg)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://img2.imgtp.com/2024/04/12/lOuZn5HX.jpg)" class="pimgbox" onclick="changeBg('url(https://img2.imgtp.com/2024/04/12/lOuZn5HX.jpg)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://img2.imgtp.com/2024/04/12/ddmE2LIW.webp)" class="imgbox" onclick="changeBg('url(https://img2.imgtp.com/2024/04/12/ddmE2LIW.webp)')"></a></div>
               </div>
             </details>
 
