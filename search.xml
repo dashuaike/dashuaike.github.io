@@ -4,6 +4,58 @@
   
     
     <entry>
+      <title>多普勒效应</title>
+      <link href="/posts/d831e7e3.html"/>
+      <url>/posts/d831e7e3.html</url>
+      
+        <content type="html"><![CDATA[<h1>多普勒效应</h1><div class="note warning simple"><p>小站仅仅是复制一些科普的知识，如有侵权联系删除</p></div><h2 id="发现">发现</h2><p>多普勒效应也是一个偶然的发现，1842年奥地利一位名叫多普勒的数学家、物理学家。一天，他正路过铁路交叉处，恰逢一列火车从他身旁驰过，他发现火车从远而近时汽笛声变大，但波长变短，而火车从近而远时汽笛声变小，但波长变长。他对这个物理现象感到极大兴趣，并进行了研究。发现这是由于波源与观察者之间存在着相对运动，使观察者听到的波长不同于波源波长的现象。这就是波长移动现象。因为，波源相对于观测者在运动时，观测者所听到的波长会发生变化。当波源离观测者而去时，声波的波长增加，当波源接近观测者时，声波的波长减小。波长的变化同波源与观测者间的相对速度和声速的比值有关。这一比值越大，改变就越显著，后人把它称为“多普勒效应”。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 简简单单的学习 </category>
+          
+          <category> 物理 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 学习 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>welcome</title>
+      <link href="/posts/37cb61b3.html"/>
+      <url>/posts/37cb61b3.html</url>
+      
+        <content type="html"><![CDATA[<h1>欢迎</h1><p>非常感谢大家能够访问，也感谢作者提供开源的主题，真的很漂亮<br><img src="https://cdn.jsdelivr.net/gh/dashuaike/blog-img/img/4.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/dashuaike/blog-img/img/default_cover_157.webp" alt=""></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 欢迎 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 欢迎 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Markdown语法与外挂标签写法汇总</title>
       <link href="/posts/2013454d.html"/>
       <url>/posts/2013454d.html</url>
