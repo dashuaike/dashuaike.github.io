@@ -73,7 +73,7 @@ $.ajax({
   type: 'get',
   url: 'https://apis.map.qq.com/ws/location/v1/ip',
   data: {
-    key: '',  // 这里要写你的KEY!!!
+    key: 'Z3IBZ-6IM6U-L6CVZ-GH25X-LQ3PF-7CBKT',  // 这里要写你的KEY!!!
     output: 'jsonp',
   },
   dataType: 'jsonp',
@@ -1113,7 +1113,7 @@ function changeMouseMode() {
 var now1 = new Date();
 
 function createtime1() {
-  var grt = new Date("08/09/2022 00:00:00"); //此处修改你的建站时间或者网站上线时间
+  var grt = new Date("04/09/2024 00:00:00"); //此处修改你的建站时间或者网站上线时间
   now1.setTime(now1.getTime() + 250);
   var days = (now1 - grt) / 1000 / 60 / 60 / 24;
   var dnum = Math.floor(days);
@@ -2791,7 +2791,7 @@ function createtime() {
   var dis = Math.trunc(23400000000 + ((now - start) / 1000) * 17); // 距离=秒数*速度 记住转换毫秒
   var unit = (dis / 149600000).toFixed(6);  // 天文单位
   // 网站诞生时间
-  var grt = new Date("09/04/2024 00:00:00");
+  var grt = new Date("04/09/2024 00:00:00");
   var days = (now - grt) / 1e3 / 60 / 60 / 24,
     dnum = Math.floor(days),
     hours = (now - grt) / 1e3 / 60 / 60 - 24 * dnum,
@@ -3176,10 +3176,10 @@ if (localStorage.getItem("blogbg") != undefined) {
   setBg(localStorage.getItem("blogbg"));
 } else {
   document.getElementById("defineBg").innerText = `:root{
-    --default-bg: url(https://cdn.jsdelivr.net/gh/dashuaike/blog-img/img/11.jpg);
-    --darkmode-bg:url(https://cdn.jsdelivr.net/gh/dashuaike/blog-img/img/12.jpeg);
-    --mobileday-bg: url(https://cdn.jsdelivr.net/gh/dashuaike/blog-img/img/15.jpg);
-    --mobilenight-bg: url(https://cdn.jsdelivr.net/gh/dashuaike/blog-img/img/8.jpg);
+    --default-bg:url(https://img2.imgtp.com/2024/04/12/55BXElpT.webp);
+    --darkmode-bg:url(https://img2.imgtp.com/2024/04/13/1vTshKTb.webp);
+    --mobileday-bg: url(https://img2.imgtp.com/2024/04/12/ddmE2LIW.webp);
+    --mobilenight-bg: url(https://img2.imgtp.com/2024/04/13/08ddLDH6.jpeg);
   }`;
 }
 // 切换背景主函数
@@ -3409,7 +3409,7 @@ function createWinbox() {
 <h3>1. 二次元</h3>
 <details class="folding-tag" cyan><summary> 查看二次元背景 </summary>
               <div class='content'>
-              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://cdn.jsdelivr.net/gh/dashuaike/blog-img/img/3.jpg)" class="imgbox" onclick="changeBg('url(https://cdn.jsdelivr.net/gh/dashuaike/blog-img/img/3.jpg)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://cdn.jsdelivr.net/gh/dashuaike/blog-img/img/4.jpg)" class="imgbox" onclick="changeBg('url(https://cdn.jsdelivr.net/gh/dashuaike/blog-img/img/4.jpg)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://img2.imgtp.com/2024/04/12/55BXElpT.webp)" class="pimgbox" onclick="changeBg('url(https://img2.imgtp.com/2024/04/12/55BXElpT.webp)')"></a>、</div>
+              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://img2.imgtp.com/2024/04/13/zoXTS75t.webp)" class="imgbox" onclick="changeBg('url(https://img2.imgtp.com/2024/04/13/zoXTS75t.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://img2.imgtp.com/2024/04/13/spSzFfoi.webp)" class="imgbox" onclick="changeBg('url(https://img2.imgtp.com/2024/04/13/spSzFfoi.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://img2.imgtp.com/2024/04/13/2daSr7xj.webp)" class="imgbox" onclick="changeBg('url(https://img2.imgtp.com/2024/04/13/2daSr7xj.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://img2.imgtp.com/2024/04/13/aNGl8YXN.webp)" class="imgbox" onclick="changeBg('url(https://img2.imgtp.com/2024/04/13/aNGl8YXN.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://img2.imgtp.com/2024/04/13/WA9n6EXg.webp)" class="imgbox" onclick="changeBg('url(https://img2.imgtp.com/2024/04/13/WA9n6EXg.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://img2.imgtp.com/2024/04/13/BKUPQDLb.webp)" class="imgbox" onclick="changeBg('url(https://img2.imgtp.com/2024/04/13/BKUPQDLb.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://img2.imgtp.com/2024/04/12/55BXElpT.webp)" class="imgbox" onclick="changeBg('url(https://img2.imgtp.com/2024/04/12/55BXElpT.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://img2.imgtp.com/2024/04/13/meNg9Q9U.webp)" class="imgbox" onclick="changeBg('url(https://img2.imgtp.com/2024/04/13/meNg9Q9U.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://img2.imgtp.com/2024/04/13/1vTshKTb.webp)" class="imgbox" onclick="changeBg('url(https://img2.imgtp.com/2024/04/13/1vTshKTb.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://img2.imgtp.com/2024/04/13/DcrpZHau.webp)" class="imgbox" onclick="changeBg('url(https://img2.imgtp.com/2024/04/13/DcrpZHau.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://img2.imgtp.com/2024/04/13/LPkrzjo2.JPG)" class="imgbox" onclick="changeBg('url(https://img2.imgtp.com/2024/04/13/LPkrzjo2.JPG)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://img2.imgtp.com/2024/04/13/oL29lPB3.WEBP)" class="imgbox" onclick="changeBg('url(https://img2.imgtp.com/2024/04/13/oL29lPB3.WEBP)')"></a>、</div>
               </div>
             </details>
 
@@ -3418,7 +3418,7 @@ function createWinbox() {
 
 <details class="folding-tag" cyan><summary> 查看风景背景 </summary>
               <div class='content'>
-              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://lskypro.acozycotage.net/Fomalhaut/img/fj1.webp)" class="imgbox" onclick="changeBg('url(https://lskypro.acozycotage.net/Fomalhaut/img/fj1.webp)')"></a></div>
+              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://img2.imgtp.com/2024/04/12/0dfwyjEc.webp)" class="imgbox" onclick="changeBg('url(https://img2.imgtp.com/2024/04/12/0dfwyjEc.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://img2.imgtp.com/2024/04/12/H3qZjzWg.webp)" class="imgbox" onclick="changeBg('url(https://img2.imgtp.com/2024/04/12/H3qZjzWg.webp)')"></a></div>
               </div>
             </details>
 
@@ -3450,7 +3450,7 @@ function createWinbox() {
 <h3>6. 适配手机</h3>
 <details class="folding-tag" cyan><summary> 查看适配手机的背景 </summary>
               <div class='content'>
-              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://cdn.jsdelivr.net/gh/dashuaike/blog-img/img/17.jpeg)" class="imgbox" onclick="changeBg('url(https://cdn.jsdelivr.net/gh/dashuaike/blog-img/img/17.jpeg)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://cdn.jsdelivr.net/gh/dashuaike/blog-img/img/14.jpg)" class="imgbox" onclick="changeBg('url(https://cdn.jsdelivr.net/gh/dashuaike/blog-img/img/14.jpg)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://img2.imgtp.com/2024/04/12/lOuZn5HX.jpg)" class="pimgbox" onclick="changeBg('url(https://img2.imgtp.com/2024/04/12/lOuZn5HX.jpg)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://img2.imgtp.com/2024/04/12/ddmE2LIW.webp)" class="imgbox" onclick="changeBg('url(https://img2.imgtp.com/2024/04/12/ddmE2LIW.webp)')"></a></div>
+              <div class="bgbox"><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://img2.imgtp.com/2024/04/13/5Sx8ROew.webp)" class="imgbox" onclick="changeBg('url(https://img2.imgtp.com/2024/04/13/5Sx8ROew.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://img2.imgtp.com/2024/04/13/9sSLTKHI.webp)" class="imgbox" onclick="changeBg('url(https://img2.imgtp.com/2024/04/13/9sSLTKHI.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://img2.imgtp.com/2024/04/13/yO6hCkjB.webp)" class="imgbox" onclick="changeBg('url(https://img2.imgtp.com/2024/04/13/yO6hCkjB.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://img2.imgtp.com/2024/04/13/cbpN19M7.webp)" class="imgbox" onclick="changeBg('url(https://img2.imgtp.com/2024/04/13/cbpN19M7.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://img2.imgtp.com/2024/04/13/08ddLDH6.jpeg)" class="imgbox" onclick="changeBg('url(https://img2.imgtp.com/2024/04/13/08ddLDH6.jpeg)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://img2.imgtp.com/2024/04/12/ddmE2LIW.webp)" class="imgbox" onclick="changeBg('url(https://img2.imgtp.com/2024/04/12/ddmE2LIW.webp)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://img2.imgtp.com/2024/04/13/c2DYhtwi.jpg)" class="imgbox" onclick="changeBg('url(https://img2.imgtp.com/2024/04/13/c2DYhtwi.jpg)')"></a><a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://img2.imgtp.com/2024/04/13/OAQ4u5VD.WEBP)" class="imgbox" onclick="changeBg('url(https://img2.imgtp.com/2024/04/13/OAQ4u5VD.WEBP)')"></a></div>
               </div>
             </details>
 
