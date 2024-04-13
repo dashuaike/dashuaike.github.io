@@ -6,7 +6,7 @@
   <link href="https://dashuaike.github.io/atom.xml" rel="self"/>
   
   <link href="https://dashuaike.github.io/"/>
-  <updated>2024-04-13T11:22:09.623Z</updated>
+  <updated>2024-04-13T13:19:45.721Z</updated>
   <id>https://dashuaike.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>浏览器的跨域请求</title>
+    <link href="https://dashuaike.github.io/posts/f14b42cf.html"/>
+    <id>https://dashuaike.github.io/posts/f14b42cf.html</id>
+    <published>2024-04-13T12:49:45.000Z</published>
+    <updated>2024-04-13T13:19:45.721Z</updated>
+    
+    <content type="html"><![CDATA[<span class='p center logo large'>跨域</span><div class="note warning simple"><p>短视频学习到的duyi对于跨域的讲解，如果有侵权联系删除</p></div><p>跨域可能出现在三种场景：</p><ul><li>网络通信<br>a元素的跳转；加载css、js、图片等；AJAX等等</li><li>JS API<br>window.open、window.parent、iframe.contentWindow等等</li><li>存储<br>WebStorage、IndexedDB等等<br>对于不同的跨域场景，以及每个场景中不同的跨域方式，同源策略都有不同的限制。<br>本文重点讨论网络通信中AJAX的跨域问题</li></ul><h2 id="浏览器的同源策略">浏览器的同源策略</h2><div class="note info simple"><p>源 = 协议 + 域名 + 端口</p></div><p>浏览器出于安全的考虑，对同源请求放行，对异源请求限制。这些限制规则统称为同源策略。<br>页面源和目标源不一致时会引发跨域</p><div class='checkbox times red checked'><input type="checkbox" checked="checked"/>            <p>所有的跨域都会引发跨域问题</p>            </div><div class="img-wrap"><div class="img-bg"><img class="img" src="http://mdrs.yuanjin.tech/img/202301121636551.png" style="width:50vw;"/></div></div><p>不论是用标签（src，link）还是ajax请求异源的资源都会引发跨域，但是浏览器对二者的限制不一样。对标签采用轻微的限制，对ajax采用较为严格的限制。<br>一般的跨域问题便是☞ajax请异源时发生的问题。</p><div class='checkbox times red checked'><input type="checkbox" checked="checked"/>            <p>发生跨域时服务器接收不到请求，或者没有返回资源</p>            </div><p>其实发生跨域时服务器也会返回资源。但是该响应被浏览器拦截进行校验，只有通过校验时才会把资源返回给页面源。</p><div class="img-wrap"><div class="img-bg"><img class="img" src="http://mdrs.yuanjin.tech/img/202301122010888.png" style="width:50vw;"/></div></div><h2 id="解决方案">解决方案</h2><h3 id="CORS">CORS</h3><p>最正统也是最推荐的解决方案，但是前端无法解决，而且服务器必须是自己人。<br>CORS的基本理念是：</p><ul><li>只要服务器明确表示允许，则校验通过</li><li>服务器明确拒绝或没有表示，则校验不通过</li></ul><h4 id="请求分类">请求分类</h4><p>CORS将请求分为两类：==简单请求==和==预检请求==。<br>对不同种类的请求它的规则有所区别。<br>所以要理解CORS，首先要理解它是如何划分请求的。<br>简单来说，只要全部满足下列条件，就是简单请求：</p><ul><li>请求方法是GET、POST、HEAD之一</li><li>头部字段满足CORS安全规范<br>浏览器默认自带的头部字段都是满足安全规范的，只要开发者不改动和新增头部，就不会打破此条规则</li><li>如果有Content-Type，必须是下列值中的一个<ul><li>text/plain</li><li>multipart/form-data</li><li>application/x-www-form-urlencoded<br>预检请求(preflight)<br>只要不是简单请求，均为预检请求</li></ul></li></ul>]]></content>
+    
+    
+    <summary type="html">网络通信的跨域问题</summary>
+    
+    
+    
+    <category term="我の前端知识" scheme="https://dashuaike.github.io/categories/%E6%88%91%E3%81%AE%E5%89%8D%E7%AB%AF%E7%9F%A5%E8%AF%86/"/>
+    
+    
+    <category term="知识点" scheme="https://dashuaike.github.io/tags/%E7%9F%A5%E8%AF%86%E7%82%B9/"/>
+    
+    <category term="前端" scheme="https://dashuaike.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
   
   <entry>
     <title>vue模板</title>
