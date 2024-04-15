@@ -9516,6 +9516,14 @@ hr:before {
   transition: all 0.3s ease-in-out;
 }
 
+/* 播放器固定底部 */
+.aplayer.aplayer-fixed .aplayer-body {
+  bottom: 70px !important;
+}
+.aplayer.aplayer-fixed{
+  bottom: 70px !important;
+}
+
 .search-dialog {
   position: fixed;
   top: 10%;
